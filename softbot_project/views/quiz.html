@@ -1,0 +1,14 @@
+<form action="/quiz" method="post">
+    % if mcqs:
+        % for index, mcq in enumerate(mcqs):
+            <p><strong>Question {{index + 1}}: {{mcq['question']}}</strong></p>
+            % for choice in mcq['choices']:
+                <input type="radio" name="q{{index + 1}}" value="{{choice.strip()}}" required> {{choice}}<br>
+            % end
+            <br>
+        % end
+    % else:
+        <p>No questions available.</p>
+    % end
+    <input type="submit" value="Submit Quiz">
+</form>
