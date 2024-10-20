@@ -19,8 +19,11 @@ Features
 
 #### Run the web application using the following command on the terminals
   Clone the repository
+  
   Install dependencies
+  
   Run the web application
+  
   python app.py
 
 Technology Stack
