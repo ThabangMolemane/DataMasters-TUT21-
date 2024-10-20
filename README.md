@@ -18,6 +18,9 @@ Features
 •	Softbot: A virtual assistant that guides students through quizzes, provides feedback, and offers study suggestions.
 
 #### Run the web application using the following command on the terminals
+  Clone the repository
+  Install dependencies
+  Run the web application
   python app.py
 
 Technology Stack
