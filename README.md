@@ -17,6 +17,9 @@ Features
 •	Performance Prediction: A Linear Regression model predicts future quiz scores based on previous attempts.
 •	Softbot: A virtual assistant that guides students through quizzes, provides feedback, and offers study suggestions.
 
+#### Run the web application using the following command on the terminals
+  python app.py
+
 Technology Stack
 
 •	Frontend:
